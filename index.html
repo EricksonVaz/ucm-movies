@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="./">
+    <meta name="description" content="neste projecto foi utilizado boostrap 4 para criar um layout laandpage para ordernar e mostrar todos os filme do UCM (Universo cenematografio da marvel) de forma organizada e por fase, para facilitar a vida de quem queira maratonar os mas de 20 filmes lançados desde de 2008">
+    <meta name="keywords" content="ucm, mcu, universo cenematografico da marvel, iron man, capitção américa, black panther, portifolio erickson vaz, projecto para protfolio">
+    <meta name="author" content="Erickson de Carvalho Vaz">
+    <meta name="copyright" content="Erickson Vaz">
+    <meta name="robots" content="index,follow">
+    <meta name="rating" content="general">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta http-equiv="Content-Language" content="pt-PT">
+    <meta property="og:title" content="UCM - Movies Order" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ericksonvaz.com/projects/ucm-movies/" />
+    <meta property="og:image" content="img/main-banner.jpg" />
+    <title>UCM - Movies Order</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body data-spy="scroll" data-target="#main-nav" data-offset="0">
+    <header role="banner">
+        <nav role="navigation" class="main-nav navbar navbar-expand-md navbar-dark">
+            <a class="navbar-brand" href="#">
+                <img src="img/nav-icon.png" alt="" width="80">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="main-nav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link font-weight-bold" href="#inicio">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font-weight-bold" href="#fase-1">Fase 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font-weight-bold" href="#fase-2">Fase 2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font-weight-bold" href="#fase-3">Fase 3</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font-weight-bold" href="#fase-4">Fase 4</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font-weight-bold" href="#agenda-marvel">Agenda Marvel</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main role="main">
+        <section class="main-banner containe-fluid" id="inicio">
+            <div class="main-title-container">
+                <h1 class="main-title">UCM - Movies Order</h1>
+                <h2 class="sub-title">Universo Cinematográfico da Marvel</h2>
+                <div class="simbol-container mt-4">
+                    <img src="img/logos/antman.png" width="30" alt="Homem formiga logo simbolo" title="Ant-Man" data-toggle="tooltip" data-placement="bottom">
+                    <img src="img/logos/avangers.png" width="30" alt="avangers logo simbolo" title="Avangers" data-toggle="tooltip" data-placement="bottom">
+                    <img src="img/logos/black_panther.png" width="30" alt="Black panther logo simbolo" title="Black Panther" data-toggle="tooltip" data-placement="bottom" style="filter: invert(1);">
+                    <img src="img/logos/black_widow.png" width="30" alt="Black Widow logo Simbolo" title="Black Widow" data-toggle="tooltip" data-placement="bottom">
+                    <img src="img/logos/captain_america.png" width="30" alt="Capitão America logo simbolo" title="Capitão América" data-toggle="tooltip" data-placement="bottom">
+                    <img src="img/logos/captain_marvel.png" width="30" alt="Capitã marvel logo simbolo" title="Capitã Marvel" data-toggle="tooltip" data-placement="bottom">
+                    <img src="img/logos/doctor_strange.png" width="30" alt="Doutor estranho logo simbolo" title="Doutor Estranho" data-toggle="tooltip" data-placement="bottom">
+                    <img src="img/logos/eternals.png" width="30" alt="Eternos logo simbolo" title="Eternos" data-toggle="tooltip" data-placement="bottom">
+                    <img src="img/logos/guardioes.png" width="30" alt="Guardiões da galaxia logo simbolo" title="Guardiões da Galaxia" data-toggle="tooltip" data-placement="bottom">
+                    <img src="img/logos/hulk.png" width="30" alt="hulk logo simbolo" title="Hulk" data-toggle="tooltip" data-placement="bottom">
+                    <img src="img/logos/shang_chi.png" width="30" alt="shang chi logo simbolo" title="Shang Chi" data-toggle="tooltip" data-placement="bottom">
+                    <img src="img/logos/spider_man.png" width="30" alt="spider man logo simbolo" title="Spider-Man" data-toggle="tooltip" data-placement="bottom">
+                    <img src="img/logos/thor.png" width="30" alt="thor logo simbolo" title="Thor" data-toggle="tooltip" data-placement="bottom">
+                </div>
+                <button type="button" class="btn text-white btn-wellcome border mt-5" data-toggle="modal" data-target="#modal-play-video">
+                    <img src="img/play.png" alt="play icon" width="30">
+                    Bem-vindo ao UCM
+                </button>
+            </div>
+        </section>
+        <section class="container-fluid" id="fase-1">
+            <div class="row">
+                <div class="col-sm-6 p-0 img-fase-container d-flex flex-column align-items-center text-white">
+                    <h2 class="fase-title">Fase 1</h2>
+                    <div class="simbol-img-container">
+                        <img src="img/logos/iron_man.png" width="50" alt="iron man logo simbolo" title="Iron Man" data-toggle="tooltip" data-placement="bottom">
+                        <img src="img/logos/hulk.png" width="50" alt="hulk logo simbolo" title="Hulk" data-toggle="tooltip" data-placement="bottom">
+                        <img src="img/logos/thor.png" width="50" alt="thor logo simbolo" title="Thor" data-toggle="tooltip" data-placement="bottom">
+                        <img src="img/logos/captain_america.png" width="50" alt="Capitão America logo simbolo" title="Capitão América" data-toggle="tooltip" data-placement="bottom">
+                        <img src="img/logos/avangers.png" width="50" alt="avangers logo simbolo" title="Avangers" data-toggle="tooltip" data-placement="bottom">
+                    </div>
+                </div>
+                <div class="col-sm-6 text-white">
+                    <h3 class="sub-title-fase">2008 - 2012</h3>
+                    <p class="text-description-fase">Na primeira fase do UCM foram apresentados e introduzidos alguns herois da marvel que mais tarde no filme avangers de 2012 veriam a entegrar o grupo dos super heróis mais poderosos da Terra, nesta fase foram produzidos 6 filmes, sendo que o destaque principal foi para Iron Man com 2 filmes, os filmes desta fase foram:</p>
+                    <ol class="list-fase-movies">
+                        <li>Iron Man (2008)</li>
+                        <li>The Incredible Hulk (2008)</li>
+                        <li>Iron Man 2 (2010)</li>
+                        <li>Thor (2011)</li>
+                        <li>Captain America: The First Avenger (2011)</li>
+                        <li>The Avengers (2012)</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+        <section class="container-fluid" id="fase-2">
+            <div class="row">
+                <div class="col-sm-6 text-white order-2 order-sm-1">
+                    <h3 class="sub-title-fase">2013 - 2015</h3>
+                    <p class="text-description-fase">Com o sucesso da primeira fase do UCM era obvio que a marvel depois de decadas já tinha acertado na receita para fazer filmes de super heróis, e mais obvio ainda era que essa nova forma de se fazer filmes tinha que continuar, na segunda fase do UCM que durou 2 anos foram produzidos mais 6 filmes, e nesta fase foram introduzidos mais uma leva de super herois e grupos, o destaque principal foi para Guardiões da Galaxia, um grupo desconhecido para o publico geral mas que surprendeu a todos, em suma os enredos desenvolvidos nos filmes giravam entorno de historias do passado de alguns personagens e como que escolhas e decisões tomadas tiveram um reflexo terrivel no presente, os principais filmes desta fase foram:</p>
+                    <ol class="list-fase-movies" start="7">
+                        <li>Iron Man 3 (2013)</li>
+                        <li>Thor: The Dark World (2013)</li>
+                        <li>Captain America: The Winter Soldier (2014)</li>
+                        <li>Guardians of the Galaxy (2014)</li>
+                        <li>Avengers: Age of Ultron (2015)</li>
+                        <li>Ant-Man (2015)</li>
+                    </ol>
+                </div>
+                <div class="col-sm-6 order-1 order-sm-2 p-0 img-fase-container d-flex flex-column align-items-center text-white">
+                    <h2 class="fase-title">Fase 2</h2>
+                    <div class="simbol-img-container">
+                        <img src="img/logos/iron_man.png" width="50" alt="iron man logo simbolo" title="Iron Man" data-toggle="tooltip" data-placement="bottom">
+                        <img src="img/logos/thor.png" width="50" alt="thor logo simbolo" title="Thor" data-toggle="tooltip" data-placement="bottom">
+                        <img src="img/logos/captain_america.png" width="50" alt="Capitão America logo simbolo" title="Capitão América" data-toggle="tooltip" data-placement="bottom">
+                        <img src="img/logos/guardioes.png" width="50" alt="Guardiões da galaxia logo simbolo" title="Guardiões da Galaxia" data-toggle="tooltip" data-placement="bottom">
+                        <img src="img/logos/avangers.png" width="50" alt="avangers logo simbolo" title="Avangers" data-toggle="tooltip" data-placement="bottom">
+                        <img src="img/logos/antman.png" width="50" alt="Homem formiga logo simbolo" title="Ant-Man" data-toggle="tooltip" data-placement="bottom">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container-fluid" id="fase-3">
+            <div class="row">
+                <div class="col-sm-6 p-0 img-fase-container d-flex flex-column align-items-center text-white">
+                    <h2 class="fase-title">Fase 3</h2>
+                    <div class="simbol-img-container">
+                        <img src="img/logos/captain_america.png" width="50" alt="Capitão America logo simbolo" title="Capitão América" data-toggle="tooltip" data-placement="bottom">
+                        <img src="img/logos/doctor_strange.png" width="50" alt="Doutor estranho logo simbolo" title="Doutor Estranho" data-toggle="tooltip" data-placement="bottom">
+                        <img src="img/logos/guardioes.png" width="50" alt="Guardiões da galaxia logo simbolo" title="Guardiões da Galaxia" data-toggle="tooltip" data-placement="bottom">
+                        <img src="img/logos/spider_man.png" width="50" alt="spider man logo simbolo" title="Spider-Man" data-toggle="tooltip" data-placement="bottom">
+                        <img src="img/logos/thor.png" width="50" alt="thor logo simbolo" title="Thor" data-toggle="tooltip" data-placement="bottom">
+                        <img src="img/logos/black_panther.png" width="50" alt="Black panther logo simbolo" title="Black Panther" data-toggle="tooltip" data-placement="bottom" style="filter: invert(1);">
+                        <img src="img/logos/antman.png" width="50" alt="Homem formiga logo simbolo" title="Ant-Man" data-toggle="tooltip" data-placement="bottom">
+                        <img src="img/logos/captain_marvel.png" width="50" alt="Capitã marvel logo simbolo" title="Capitã Marvel" data-toggle="tooltip" data-placement="bottom">
+                        <img src="img/logos/avangers.png" width="50" alt="avangers logo simbolo" title="Avangers" data-toggle="tooltip" data-placement="bottom">
+                    </div>
+                </div>
+                <div class="col-sm-6 text-white">
+                    <h3 class="sub-title-fase">2016 - 2019</h3>
+                    <p class="text-description-fase">Com o grande sucesso que foi a fase 2 do UCM, a marvel já tinha habituado o público com uma média de 2 filmes por ano, e diferente das HQs os actores que interpretam os personagens no UCM tem contratos e infelizmente elas encerram e por essas e outras razões a marvel precissava dar uma conclusão de 10 anos de histórias e aventuras em uma saga épica conhecida como saga do infinito, e deixar as portas abertas para continuar com o projecto Marvel nos cinemas, esta fase foi a que teve maior numero de filmes 11 no total, novos personagens foram introduzidos como Doutor Estranho, Homem  Aranha, Black Panther e Capitã Marvel, e o conceito de multiverso, e viagens no tempo foram explorados, os principais filmes foram:</p>
+                    <ol class="list-fase-movies" start="13">
+                        <li>Captain America: Civil War (2016)</li>
+                        <li>Doctor Strange (2016)</li>
+                        <li>Guardians of the Galaxy 2 (2017)</li>
+                        <li>Spider-Man: Homecoming (2017)</li>
+                        <li>Thor: Ragnarok (2017)</li>
+                        <li>Black Panther (2017)</li>
+                        <li>Avengers: Infinity War (2018)</li>
+                        <li>Ant-Man and the Wasp (2018)</li>
+                        <li>Captain Marvel (2019)</li>
+                        <li>Avengers: Endgame (2019)</li>
+                        <li>Spider-Man: Far From Home (2019)</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+        <section class="container-fluid" id="fase-4">
+            <div class="row">
+                <div class="col-sm-6 text-white order-2 order-sm-1">
+                    <h3 class="sub-title-fase">2020 - Atualmente</h3>
+                    <p class="text-description-fase">A fase 4 do UCM é a atual, deois de um ano de atrsos e concelamentos provocados pela pandémia do COVID-19 a marvel apartir do 4 trimestre de 2020 voltou com alguns filmes e mais ainda estão por vir, até ao momento já estrearam-se 5 filmes, são eles</p>
+                    <ol class="list-fase-movies" start="24">
+                        <li>Black Widow (2020)</li>
+                        <li>Shang-Chi and the Legend of the Ten Rings – 3 Setembro,
+                        2021</li>
+                        <li>The Eternals – 5 Novembro, 2021</li>
+                        <li>Spider-Man: No Way Home – 17 Dezembro, 2021</li>
+                        <li>Doctor Strange in the Multiverse of Madness – 6 Maio, 2022</li>
+                    </ol>
+                </div>
+                <div class="col-sm-6 order-1 order-sm-2 p-0 img-fase-container d-flex flex-column align-items-center text-white">
+                    <h2 class="fase-title">Fase 4</h2>
+                    <div class="simbol-img-container">
+                        <img src="img/logos/black_widow.png" width="50" alt="Black Widow logo Simbolo" title="Black Widow" data-toggle="tooltip" data-placement="bottom">
+                        <img src="img/logos/shang_chi.png" width="50" alt="shang chi logo simbolo" title="Shang Chi" data-toggle="tooltip" data-placement="bottom">
+                        <img src="img/logos/eternals.png" width="50" alt="Eternos logo simbolo" title="Eternos" data-toggle="tooltip" data-placement="bottom">
+                        <img src="img/logos/spider_man.png" width="50" alt="spider man logo simbolo" title="Spider-Man" data-toggle="tooltip" data-placement="bottom">
+                        <img src="img/logos/doctor_strange.png" width="50" alt="Doutor estranho logo simbolo" title="Doutor Estranho" data-toggle="tooltip" data-placement="bottom">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container-fluid mt-4" id="agenda-marvel">
+            <h2 class="title-agenda text-white">Agenda Marvel</h2>
+            <div class="container mt-4">
+                <div class="row justify-content-center">
+                    <div class="col-sm-4 p-2">
+                        <div class="agenda-col">Black Panther 2 – 2022</div>
+                    </div>
+                    <div class="col-sm-4 p-2">
+                        <div class="agenda-col">Captain Marvel 2 – 2022</div>
+                    </div>
+                    <div class="col-sm-4 p-2">
+                        <div class="agenda-col">Blade - 2022</div>
+                    </div>
+                    <div class="col-sm-4 p-2">
+                        <div class="agenda-col">Black Panther 2 - 2022</div>
+                    </div>
+                    <div class="col-sm-4 p-2">
+                        <div class="agenda-col">Ant-Man 3 - 2023</div>
+                    </div>
+                    <div class="col-sm-4 p-2">
+                        <div class="agenda-col">Black Panther 2 - 2022</div>
+                    </div>
+                    <div class="col-sm-4 p-2">
+                        <div class="agenda-col">Captain Marvel 2 - 2023</div>
+                    </div>
+                    <div class="col-sm-4 p-2">
+                        <div class="agenda-col">Guardians of the Galaxy 3 - 2023
+                        </div>
+                    </div>
+                    <div class="col-sm-4 p-2">
+                        <div class="agenda-col">Fantastic Four</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer role="contentinfo">
+
+    </footer>
+    <div class="modal fade" id="modal-play-video" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content modal-content-play-video">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body p-0">
+                    <video class="w-100 h-100" src="tributes-videos/marvel_blinding_lights.mp4" controls poster="tributes-videos/video_poster/marvel_blinding.jpg"></video>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
